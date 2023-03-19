@@ -1,0 +1,52 @@
+{
+    "ganger": [
+        {
+            "name": "Zephyr",
+          "desc": "Me llamo así por el viento que sopla en el oeste de Estados Unidos. Mis padres son amantes de la naturaleza, aunque yo siempre he preferido el aire acondicionado.",
+          "nacionalidad": "Estados Unidos",
+          "gender": "male",
+          "icono_url": "https://flagicons.lipis.dev/flags/4x3/us.svg",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/character-generator-c501c.appspot.com/o/gangerImage%2F01.gif?alt=media&token=36d52bf5-c46f-4d3c-b33d-02dd47ee777a"
+        },
+        {
+          "name": "Astrid",
+          "desc": "Mi nombre significa 'belleza divina' en nórdico antiguo, pero yo siempre me he sentido más bien como una bruja. Supongo que es porque siempre estoy bebiendo té de hierbas y leyendo libros de hechizos.",
+          "nacionalidad": "Suecia",
+          "gender": "male",
+          "icono_url": "https://flagicons.lipis.dev/flags/4x3/se.svg",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/character-generator-c501c.appspot.com/o/gangerImage%2F02.gif?alt=media&token=90d9a16f-f8dc-4650-bf14-28530481fd79"
+        },
+        {
+          "name": "Orville",
+          "desc": "Me llamo así por los hermanos Wright, los inventores del avión. Mi padre siempre ha sido un aficionado a la aviación, aunque yo prefiero los trenes.",
+          "nacionalidad": "Canadá",
+          "gender": "female",
+          "icono_url": "https://flagicons.lipis.dev/flags/4x3/ca.svg",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/character-generator-c501c.appspot.com/o/gangerImage%2F03.gif?alt=media&token=fdccac18-c6b1-4b02-b7b3-dde6ad2f0599"
+        },
+        {
+          "name": "Pippin",
+          "desc": "Me llamo así por el personaje de El Señor de los Anillos. Mi madre es una gran fan de J.R.R. Tolkien, aunque a mí nunca me ha gustado mucho la fantasía.",
+          "nacionalidad": "Reino Unido",
+          "gender": "female",
+          "icono_url": "https://flagicons.lipis.dev/flags/4x3/gb.svg",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/character-generator-c501c.appspot.com/o/gangerImage%2F04.gif?alt=media&token=14c7efb2-3b8d-42bf-9b98-4b4ac6429ac1"
+        },
+        {
+          "name": "Hendrik",
+          "desc": "Me llamo así por mi abuelo holandés. Aunque siempre he vivido en Estados Unidos, mi familia mantiene fuertes lazos con Holanda y cada año celebramos el Día de San Nicolás con regalos y comida típica holandesa.",
+          "nacionalidad": "Estados Unidos",
+          "gender": "female",
+          "icono_url": "https://flagicons.lipis.dev/flags/4x3/us.svg",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/character-generator-c501c.appspot.com/o/gangerImage%2F05.gif?alt=media&token=e01c349c-4830-4c4b-9280-80305a40016e"
+        },
+        {
+          "name": "Clementine",
+          "desc": "Me llamo así por la canción infantil 'Oh mi darling, Clementine'. Mis padres son músicos y siempre han tenido un gusto muy particular por la música tradicional.",
+          "nacionalidad": "Australia",
+          "gender": "male",
+          "icono_url": "https://flagicons.lipis.dev/flags/4x3/au.svg",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/character-generator-c501c.appspot.com/o/gangerImage%2F06.gif?alt=media&token=1c2371eb-ed4a-4da4-968f-89d16cc91803"
+        }
+    ]
+}

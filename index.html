@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ganger</title>
+</head>
+<body>
+
+    <div class="container">
+
+
+        <div class="card">
+
+            <div class="card_front" id="card">
+                <div class="card_head">
+                    <div class="head_title" id="name_card"></div>
+                    <div class="head_icon_cont">
+                        <div class="head_icon" id="nacionalidad_card" title="Texto del globo de texto"></div>
+                    </div>
+                </div>
+                <div class="card_photo" id="imageUrl_card">
+
+                </div>
+                <div class="card_body">
+                    <span class="body_text" id="desc_card"></span>
+                    
+                </div>
+                <div class="footer">
+                    <div class="gender_image" id="gender_card"></div>
+                </div>
+
+            </div>
+            
+            <div class="card_back" id="card_back"></div>
+
+        </div>
+
+
+
+        <div class="gen_button_cont">
+            <button class="gen_button" onclick="generar()">Gang!</button>
+        </div>
+        
+    </div>
+
+    <div id="image_preload_div"></div>
+    <img id="imagePreload" src="" style="display: none;">
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.6.4.min.js"
+    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+    crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
+    <script src="firebase.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
