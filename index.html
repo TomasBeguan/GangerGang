@@ -22,14 +22,17 @@
                     </div>
                 </div>
                 <div class="card_photo" id="imageUrl_card">
-
+                    <div class="dialogue_button" onclick="generar('dialogue')"><img src="assets/chat.svg" alt="" class="mensajero"></div>
                 </div>
                 <div class="card_body">
                     <span class="body_text" id="desc_card"></span>
-                    
                 </div>
                 <div class="footer">
                     <div class="gender_image" id="gender_card"></div>
+                </div>
+
+                <div class="dialogue_cont" id="dialogue_card">
+                    <span class="dialogue_text" id="dialogue_text"></span>
                 </div>
 
             </div>
@@ -41,7 +44,7 @@
 
 
         <div class="gen_button_cont">
-            <button class="gen_button" onclick="generar()">Gang!</button>
+            <button class="gen_button" onclick="generar('generar')">Gang!</button>
         </div>
         
     </div>

@@ -1,52 +1,95 @@
 {
     "ganger": [
         {
-            "name": "Zephyr",
-          "desc": "Me llamo así por el viento que sopla en el oeste de Estados Unidos. Mis padres son amantes de la naturaleza, aunque yo siempre he preferido el aire acondicionado.",
+          "name": "Landon Walker",
+          "desc": "Landon Walker es un hombre peculiar, con un nombre que suena como si fuera el protagonista de una novela de aventuras. Es alto y delgado, con el pelo oscuro y desordenado. A pesar de ser de Estados Unidos, tiene una fascinación por todo lo europeo, especialmente por la comida y la cultura. Siempre está en busca de algo nuevo para probar. Pero lo que más llama la atención de Landon es su pasión por los instrumentos musicales antiguos. Tiene una colección impresionante de instrumentos raros y exóticos que ha ido recolectando a lo largo de los años.",
+          "dialogue": [
+            "Hola, ¿quieres escuchar una pieza de música medieval en mi laúd? Es uno de mis instrumentos favoritos.",
+            "La verdad es que no me gusta mucho la comida americana, prefiero la comida europea, sobre todo la francesa. ¿Has probado el cassoulet?",
+            "Esta flauta de pan que tengo aquí es una auténtica reliquia. La compré en un mercado de Marruecos hace unos años."
+            ],
           "nacionalidad": "Estados Unidos",
           "gender": "male",
           "icono_url": "https://flagicons.lipis.dev/flags/4x3/us.svg",
           "imageUrl": "https://firebasestorage.googleapis.com/v0/b/character-generator-c501c.appspot.com/o/gangerImage%2F01.gif?alt=media&token=36d52bf5-c46f-4d3c-b33d-02dd47ee777a"
         },
         {
-          "name": "Astrid",
-          "desc": "Mi nombre significa 'belleza divina' en nórdico antiguo, pero yo siempre me he sentido más bien como una bruja. Supongo que es porque siempre estoy bebiendo té de hierbas y leyendo libros de hechizos.",
-          "nacionalidad": "Suecia",
+          "name": "Harrison Stone",
+          "desc": "A Harrison le encanta hacer experimentos extraños en su laboratorio. Cuando no está creando pociones peligrosas, disfruta de la música clásica y de largos paseos por el bosque. A pesar de su aspecto inquietante, siempre está dispuesto a ayudar a los necesitados.",
+          "dialogue": [
+            "Bienvenido a mi laboratorio. Siéntete libre de curiosear por aquí, pero ten cuidado de no tocar nada peligroso.",
+            "Esta pieza de Bach siempre me relaja. Me recuerda a cuando era joven y aún no había descubierto los peligros de la alquimia.",
+            "¿Te gustaría probar esta poción que acabo de inventar? No te preocupes, no es peligrosa, solo te dará un poco de energía extra."
+            ],
+          "nacionalidad": "Reino Unido",
           "gender": "male",
-          "icono_url": "https://flagicons.lipis.dev/flags/4x3/se.svg",
+          "icono_url": "https://flagicons.lipis.dev/flags/4x3/gb.svg",
           "imageUrl": "https://firebasestorage.googleapis.com/v0/b/character-generator-c501c.appspot.com/o/gangerImage%2F02.gif?alt=media&token=90d9a16f-f8dc-4650-bf14-28530481fd79"
         },
         {
-          "name": "Orville",
-          "desc": "Me llamo así por los hermanos Wright, los inventores del avión. Mi padre siempre ha sido un aficionado a la aviación, aunque yo prefiero los trenes.",
-          "nacionalidad": "Canadá",
-          "gender": "female",
-          "icono_url": "https://flagicons.lipis.dev/flags/4x3/ca.svg",
-          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/character-generator-c501c.appspot.com/o/gangerImage%2F03.gif?alt=media&token=fdccac18-c6b1-4b02-b7b3-dde6ad2f0599"
-        },
-        {
-          "name": "Pippin",
-          "desc": "Me llamo así por el personaje de El Señor de los Anillos. Mi madre es una gran fan de J.R.R. Tolkien, aunque a mí nunca me ha gustado mucho la fantasía.",
-          "nacionalidad": "Reino Unido",
+          "name": "Lunabelle",
+          "desc": "Ella siempre ha sido una soñadora y le encanta mirar las estrellas en las noches despejadas. A menudo se pierde en su imaginación, creando mundos alternativos donde todo es posible, incluso hablar con los animales. Pero a pesar de su imaginación desbordante, siempre tiene los pies en la tierra.",
+          "dialogue": [
+            "¿Estás mirando las estrellas? Me encanta hacerlo también. ¿Ves esa constelación allí? Esa es mi favorita.",
+            "A veces me gusta imaginar que puedo hablar con los animales. Me pregunto qué pensaría un zorro si pudiera hablar.",
+            "¿Quieres oír una canción que escribí? Es una melodía sobre el amor verdadero y cómo nunca muere, incluso después de la muerte."
+            ],
+          "nacionalidad": "Inglaterra",
           "gender": "female",
           "icono_url": "https://flagicons.lipis.dev/flags/4x3/gb.svg",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/character-generator-c501c.appspot.com/o/gangerImage%2F01.gif?alt=media&token=4e8fa7db-13f4-4c69-9e60-84dd3452c0c5"
+        },
+        {
+          "name": "Briar",
+          "desc": "Su nombre es una mezcla de 'bizarre' y 'rarity', lo que describe muy bien su personalidad extravagante y poco convencional. Siempre ha sido una persona fuera de lo común, y a menudo se siente incomprendida por los demás.",
+          "dialogue": [
+            "No me gusta hablar mucho con la gente. Prefiero estar sola y pensar en cosas interesantes.",
+            "A veces me siento como si fuera de otro mundo. ¿Tú también te sientes así a veces?",
+            "La música es lo único que me hace sentir realmente viva. ¿Tú también sientes eso?"
+            ],
+          "nacionalidad": "Irlanda",
+          "gender": "female",
+          "icono_url": "https://flagicons.lipis.dev/flags/4x3/ie.svg",
           "imageUrl": "https://firebasestorage.googleapis.com/v0/b/character-generator-c501c.appspot.com/o/gangerImage%2F04.gif?alt=media&token=14c7efb2-3b8d-42bf-9b98-4b4ac6429ac1"
         },
         {
-          "name": "Hendrik",
-          "desc": "Me llamo así por mi abuelo holandés. Aunque siempre he vivido en Estados Unidos, mi familia mantiene fuertes lazos con Holanda y cada año celebramos el Día de San Nicolás con regalos y comida típica holandesa.",
+          "name": "Emmaline Parker",
+          "desc": "Emmaline es una joven americana con un nombre inventado que combina palabras comunes en inglés y nombres reales. Su personalidad es excéntrica y fuera de lo común. A menudo se la encuentra haciendo cosas raras, como cantar en el parque para atraer a los pájaros. A pesar de que sus padres son de origen holandés, Emmaline ha vivido toda su vida en Estados Unidos y apenas habla holandés.",
+          "dialogue": [
+            "¡Hola! ¿Quieres ver mi colección de sombreros locos? Son mi pasión.",
+            "No sé qué decirte, la verdad. Me siento un poco rara hoy. ¿Te importa si me quedo aquí en silencio?",
+            "La verdad es que no me gusta mucho mi nombre. ¿Tú tienes un nombre inventado o algo así?"
+            ],
           "nacionalidad": "Estados Unidos",
           "gender": "female",
           "icono_url": "https://flagicons.lipis.dev/flags/4x3/us.svg",
           "imageUrl": "https://firebasestorage.googleapis.com/v0/b/character-generator-c501c.appspot.com/o/gangerImage%2F05.gif?alt=media&token=e01c349c-4830-4c4b-9280-80305a40016e"
         },
         {
-          "name": "Clementine",
-          "desc": "Me llamo así por la canción infantil 'Oh mi darling, Clementine'. Mis padres son músicos y siempre han tenido un gusto muy particular por la música tradicional.",
-          "nacionalidad": "Australia",
+          "name": "Maddox Banks",
+          "desc": "Maddox siempre ha sido un poco excéntrico, pero eso es lo que lo hace interesante. A menudo se le ve caminando por las calles con una capa roja y una espada de juguete en la mano, listo para luchar contra cualquier cosa que se cruce en su camino. Pero a pesar de su apariencia peculiar, Maddox es en realidad un ser muy compasivo y amable, siempre dispuesto a ayudar a los demás en momentos de necesidad.",
+          "dialogue": [
+            "¡Hey, tú! ¿Quieres saber algo interesante sobre esta ciudad? Hay un callejón aquí cerca que nunca aparece en los mapas.",
+            "Odio cuando la gente me subestima. Solo porque soy joven no significa que no pueda ser inteligente.",
+            "¿Sabes qué? Siempre me he sentido un poco diferente a los demás. Como si tuviera una misión importante que cumplir, ¿entiendes lo que quiero decir?"
+            ],
+          "nacionalidad": "Canadá",
           "gender": "male",
-          "icono_url": "https://flagicons.lipis.dev/flags/4x3/au.svg",
+          "icono_url": "https://flagicons.lipis.dev/flags/4x3/ca.svg",
           "imageUrl": "https://firebasestorage.googleapis.com/v0/b/character-generator-c501c.appspot.com/o/gangerImage%2F06.gif?alt=media&token=1c2371eb-ed4a-4da4-968f-89d16cc91803"
+        },
+        {
+          "name": "Tomasi Begues",
+          "desc": "Tomasi es un ser peculiar. Nadie sabe de dónde vino o cómo llegó a este mundo, pero se rumorea que es la reencarnación del mismísimo Messi. Su personalidad es misteriosa y a menudo incomprensible para aquellos que lo rodean. Tiene una pasión inexplicable por la jardinería y se le ha visto más de una vez hablando con las plantas en su jardín. A pesar de su extraña naturaleza, es amable y generoso con quienes lo conocen de verdad.",
+          "dialogue": [
+            "¿Alguna vez has hablado con las plantas? Tienen mucho que decir si sabes escuchar.",
+            "Mi madre siempre decía que los secretos más grandes están guardados en los lugares más inesperados. Tal vez sea por eso que me gusta tanto la jardinería.",
+            "No sé por qué la gente se preocupa tanto por el futuro. Yo creo que es mejor vivir en el presente y dejar que las cosas pasen como tengan que pasar."
+          ],
+          "nacionalidad": "Argentina",
+          "gender": "male",
+          "icono_url": "https://flagicons.lipis.dev/flags/4x3/ar.svg",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/character-generator-c501c.appspot.com/o/gangerImage%2F07.gif?alt=media&token=8e5f8708-163b-4dcb-80ce-ac55343bfc89"
         }
     ]
 }

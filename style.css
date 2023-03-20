@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Varela+Round&display=swap');
 
@@ -6,6 +7,9 @@
     font-family: 'Varela Round', sans-serif;
     color: #333;
     
+}
+p{
+    margin: 0;
 }
 
 body{
@@ -33,12 +37,7 @@ body{
     right: 20px;
     
 }
-@media only screen and (max-width: 600px) {
-    .card {
-        width: 330px;
-        height: 600px;
-    }
-  }
+
 
 .card_front{    
     position: absolute;
@@ -70,12 +69,13 @@ body{
     border-radius: 30px;
     padding: 20px;
 
-    background-image: url("assets/ganger_back.png");
+    background-image: url("assets/card_back.gif");
 
     background-size:cover;
     background-position-x: center;
     background-position-y: center;
     background-repeat: no-repeat;
+    image-rendering: pixelated;
 
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 
@@ -144,14 +144,15 @@ body{
 }
 
 .card_body{
+    overflow-y: auto;
     height: 150px;
-    margin-top: 20px;
+    margin-top: 10px;
     flex-grow: 4; 
     padding: 10px;
 }
 .body_text{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
 
 }
 
@@ -199,9 +200,64 @@ body{
     box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4);;
 }
 
+.dialogue_cont{
+    position: absolute;
+    width: 200px;
+    left: 380px;
+    top: 150px;
+
+    text-align: center !important;
+    font-size: 18px;
+    color: #fff;
+
+    background-color: #333;
+    border-radius: 40px 40px 40px 0px;
+    padding: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+
+    transform: scale(0);
+    transition: 0.3s ease-in-out;
+}
+.dialogue_cont_open{
+    position: absolute;
+    width: 200px;
+    left: 380px;
+    top: 150px;
+
+    background-color: #333;
+    border-radius: 40px 40px 40px 0px;
+    padding: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+
+    transform: scale(1);
+}
+
+.dialogue_text{
+    text-align: center !important;
+    font-size: 18px;
+    color: #fff;
+}
+
+.dialogue_button{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    float: right;
+    top: calc(100% - 90px);
+    margin: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.mensajero{
+    width: 50px;
+    height: 50px;
+}
+
+
 .display_none{
     display: none;
 }
+
 
 
 
@@ -213,4 +269,20 @@ body{
     transform-origin:center;
 }
 
+
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 330px;
+        height: 600px;
+    }
+    .dialogue_cont{
+        position: absolute;
+        width: 200px;
+        left: 20px;
+        top: 20px;
+    
+        background-color: #333;
+        border-radius: 40px 40px 0px 40px;
+    }
+  }
 
